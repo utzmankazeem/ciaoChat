@@ -1,4 +1,4 @@
-const socket = io ('ws://localhost:3500')
+const socket = io ('https://ciaochat.onrender.com')
 // change to a deployed
 
 // const msgInput = document.querySelector('input')
