@@ -1,0 +1,20 @@
+{
+  "name": "chatbot-socket io",
+  "version": "1.0.0",
+  "description": "A chatbot built on nodejs & socketIo!",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node .",
+    "build":"npm i",
+    "dev": "nodemon app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kazeem Usman",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1",
+    "nodemon": "^3.1.7",
+    "socket.io": "^4.7.5"
+  }
+}

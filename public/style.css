@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-color: black;
+}
+ul{
+    display: flex;
+    flex-flow: column;
+    justify-content: left;
+    list-style-type: none;
+}
+main{
+    height: 100vh;
+    padding: 1rem;
+    display: flex;
+    flex-flow: column;
+    height: 95vh;
+}
+form{
+    width: 100%;
+    margin: auto;
+    max-width: 600px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    gap: .25rem;
+}
+input {
+    flex-grow: 1;
+    max-width: calc(80% - .25rem);
+}
+button {
+    width: 20%;
+}
+input,
+button {
+    border-radius: 10px;
+    padding: 5px;
+}
+.chatDisplay {
+    background-color: #333;
+    list-style-type: none;
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+    margin: 1rem auto;
+    padding: 0;
+    display: flex;
+    flex-flow: column;
+    justify-content: left;
+    overflow: auto;
+    flex-grow: 1;
+}
+.userList,
+.roomList,
+.activity {
+    width: inherit;
+    min-width: 600px;
+    margin: auto;
+    min-height: 2.65rem;
+    padding: .75rem .25rem;
+    color: #fff;
+    font-size: 12px;
+    font-family: monospace;
+}
+.activity {
+    font-style: italic;
+}
+.post {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: .0 0 .25rem;
+    margin: .5rem;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.post--left {
+    width: 60%;
+    align-self: flex-start;
+}
+.post--right {
+    width: 60%;
+    align-self: flex-end;
+}
+.post__text {
+    margin-top: 5px;
+    color: #eee;
+    padding: .25rem .5rem;
+}
+.post__header {
+    color: #fff;
+    padding: .25rem .5rem;
+    display: flex;
+    align-content: space-between;
+    align-items: center;
+    gap: .5rem;
+}
+.post__header--user {
+    background-color: darkslategrey;
+}
+.post__header--reply {
+    background-color: darkslateblue;
+}
+.post__header--name {
+    font-weight: bold;
+}
+.post__header--time {
+    font-size: .8rem;
+    position:relative;
+    left:  100px;
+}
+.post__text {
+    margin-top: 5px;
+    color: #333;
+    padding: .25rem .5rem;
+}
