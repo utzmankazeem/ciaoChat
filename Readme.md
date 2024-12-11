@@ -1,6 +1,6 @@
 ### Chatbot App
 
-This project was built on socket io... with `[Node Engine & expres.js library].`
+This project was built on socket io... with `[Node Engine, expres.js & socket.Io].`
 
 ## Features
 
@@ -8,7 +8,7 @@ The ciao App is a chat platform, where:
 users join a chat room OR create his/her own chat room where friends can join in to discuss.
 ![alt text](images.png)
 
-To learn see usage, check out the `[web preview, documentation]` (https://utzmankazeem.github.io/ciaoChat).
+To learn see usage, check out the `[documentation]` (https://utzmankazeem.github.io/ciaoChat). `[web preview]`(https://ciaochat.onrender.com)
 
 ### Code Splitting
 
