@@ -6,7 +6,7 @@ This project was built on socket io... with `[Node Engine & expres.js library].`
 
 The ciao App is a chat platform, where: 
 users join a chat room OR create his/her own chat room where friends can join in to discuss.
-![alt text](image.png)
+![alt text](images.png)
 
 To learn see usage, check out the `[web preview, documentation]` (https://utzmankazeem.github.io/ciaoChat).
 
